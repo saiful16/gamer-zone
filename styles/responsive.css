@@ -1,36 +1,79 @@
 /* for mobile devices */
 
 @media screen and (max-width: 576px) {
-    .nav-container, .nav-items{
+
+    .nav-container,
+    .nav-items {
         flex-direction: column;
     }
-    .nav-container{
+
+    .nav-container {
         width: 100%;
         height: auto;
         margin-top: 100px;
         box-shadow: none;
         margin-bottom: 20px;
+        padding: 0px;
     }
 
-    .nav-items{
+    .nav-items {
         margin-top: 62px;
+    }
+
+    /* play like section starts here */
+    .play-like-section-container {
+        flex-direction: column-reverse;
+        padding: 15px;
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    .play-like-image img{
+        object-fit: contain;
+        padding: 10px 0px;
+        width: 100%;
+        
+    }
+    .play-like-image{
+        padding: 0px !important;
+        
+    }
+
+    .play-like-text {
+        padding: 10px 0px;
+        margin-top: 20px;
+
     }
 }
 
 
 /* styles for medium devices */
 @media screen and (min-width: 576px) and (max-width: 990px) {
-    .nav-container{
+    .nav-container {
         flex-direction: column;
     }
-    .nav-container{
-        width: auto;
-        height: auto;
+
+    .nav-container {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
         padding-top: 100px;
         padding-bottom: 50px;
+        margin-bottom: 10px;
+        height: fit-content;
     }
 
-    .nav-items{
+    .nav-items {
         margin-top: 62px;
+    }
+
+    /* play like section */
+    .play-like-section-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 100px;
+        width: 100%;
+        
     }
 }

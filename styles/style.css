@@ -87,7 +87,6 @@
 
 /* play like GOAT section styles start here */
 .play-like-section-container {
-    border: 2px solid slateblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,6 +122,7 @@
 }
 .button-container {
     margin-top: 40px;
+    display: flex;
 }
 .btn-go-rogue {
     border-radius: 48px;
