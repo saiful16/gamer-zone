@@ -9,6 +9,7 @@
         height: auto;
         margin-top: 100px;
         box-shadow: none;
+        margin-bottom: 20px;
     }
 
     .nav-items{
@@ -17,7 +18,7 @@
 }
 
 
-
+/* styles for medium devices */
 @media screen and (min-width: 576px) and (max-width: 990px) {
     .nav-container{
         flex-direction: column;

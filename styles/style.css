@@ -1,30 +1,38 @@
 /* shared style */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-
-body {
-
-}
-
 .text-primary-color {
     color: #534C64;
 }
+.text-secondary-color {
+    color: #0B0223;
+}
+.btn-primary {
+    padding: 21px 40px;
+    color: #FFFFFF;
+    border-radius: 48px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
 
-/* nav section styles */
+/* shared styles ends here */
+
+/* nav section styles start here*/
 .nav-container {
     background: #FFF;
-    width: 1400px;
     height: 130px;
-    margin: 0px auto;
+    padding: 0px 240px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: ;
 }
 
 .nav-title img {
@@ -41,8 +49,9 @@ body {
     font-weight: 700;
     color: #0B0223;
 }
-.text-G{
-    color:#FF42A5 ;
+
+.text-G {
+    color: #FF42A5;
 }
 
 .nav-items {
@@ -73,3 +82,60 @@ body {
 .fa-youtube {
     color: #F61C0D;
 }
+
+/* nav section styles ends here */
+
+/* play like GOAT section styles start here */
+.play-like-section-container {
+    border: 2px solid slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-like-text {
+    background-image: url('/images/Group\ 14.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding: 0 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.play-like-section-container .section-title {
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#text-goat {
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+.section-feature {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.button-container {
+    margin-top: 40px;
+}
+.btn-go-rogue {
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 24px;
+
+}
+.play-like-image {
+    padding-right: 240px;
+}
+/* play like GOAT section styles ends here */
