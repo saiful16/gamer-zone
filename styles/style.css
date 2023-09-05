@@ -3,11 +3,12 @@
 
 * {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+
 }
 
 .text-primary-color {
@@ -16,8 +17,6 @@ body {
 
 /* nav section styles */
 .nav-container {
-    border: 1px solid rebeccapurple;
-    min-height: 50px;
     background: #FFF;
     width: 1400px;
     height: 130px;
