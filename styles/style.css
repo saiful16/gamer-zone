@@ -1,16 +1,20 @@
 /* shared style */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 .text-primary-color {
     color: #534C64;
 }
+
 .text-secondary-color {
     color: #0B0223;
 }
+
 .btn-primary {
     padding: 21px 40px;
     color: #FFFFFF;
@@ -20,6 +24,7 @@
     font-weight: 600;
     background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
 }
+
 
 /* shared styles ends here */
 
@@ -91,6 +96,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .play-like-text {
     background-image: url('/images/Group\ 14.png');
     width: 100%;
@@ -101,11 +107,13 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .play-like-section-container .section-title {
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
 }
+
 #text-goat {
     font-size: 95px;
     font-weight: 800;
@@ -115,15 +123,18 @@
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
 }
+
 .section-feature {
     font-size: 20px;
     font-weight: 500;
     margin: 15px 0px;
 }
+
 .button-container {
     margin-top: 40px;
     display: flex;
 }
+
 .btn-go-rogue {
     border-radius: 48px;
     background: #4EC5F7;
@@ -135,7 +146,64 @@
     margin-left: 24px;
 
 }
+
 .play-like-image {
     padding-right: 240px;
 }
+
 /* play like GOAT section styles ends here */
+
+/* we are gamer section start here */
+.we-are-gamer-container {
+    border: 2px solid skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 240px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.we-are-gamer-image {}
+
+.we-are-gamer-text {
+    text-align: right;
+}
+
+.we-are-gamer-container .section-title {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    max-width: 520px;
+}
+
+.our-purpose {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.btn-know-more {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.we-are-gamer-container p{
+    margin-top: 20px;
+}
+
+.unleash {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}

@@ -3,7 +3,7 @@
 @media screen and (max-width: 576px) {
 
     .nav-container,
-    .nav-items {
+    .nav-items, .we-are-gamer-container {
         flex-direction: column;
     }
 
@@ -44,12 +44,28 @@
         margin-top: 20px;
 
     }
+
+
+    /* we are gamer */
+    .we-are-gamer-container{
+        padding:0;
+        
+    }
+    .we-are-gamer-image img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .we-are-gamer-text{
+        text-align: center;
+        padding: 20px;
+    }
 }
 
 
 /* styles for medium devices */
 @media screen and (min-width: 576px) and (max-width: 990px) {
-    .nav-container {
+    .nav-container, .we-are-gamer-container {
         flex-direction: column;
     }
 
@@ -68,6 +84,7 @@
     }
 
     /* play like section */
+
     .play-like-section-container {
         flex-direction: column-reverse;
         justify-content: center;
@@ -76,4 +93,25 @@
         width: 100%;
         
     }
+
+    /* we are gamer */
+    .we-are-gamer-container{
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        justify-items: center;
+
+    }
+    .we-are-gamer-image{
+        width: 100%;
+    }
+    .we-are-gamer-image img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .we-are-gamer-text{
+        text-align: center;
+        padding: 20px;
+    }
+
 }
