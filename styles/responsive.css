@@ -128,9 +128,6 @@
         top: 260px;
     }
 
-
-    element.style {}
-
     .advertise-section-container {
         width: 100%;
         background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
@@ -231,6 +228,27 @@
 
     .online-games-container {
         width: 100%;
+    }
+
+    /* play instance section */
+    .play-instant-section-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .play-like-section-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .play-instant-image>img{
+        position: static;
+        margin-top: 20px;
+    }
+    .play-instant-section-container>img {
+        position: relative;
+        left: -12px;
+        top: 93px;
     }
 
 }
