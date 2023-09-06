@@ -3,9 +3,11 @@
 @media screen and (max-width: 576px) {
 
     .nav-container,
-    .nav-items, .we-are-gamer-container {
+    .nav-items,
+    .we-are-gamer-container {
         flex-direction: column;
     }
+
 
     .nav-container {
         width: 100%;
@@ -28,15 +30,16 @@
         justify-content: center; */
     }
 
-    .play-like-image img{
+    .play-like-image img {
         object-fit: contain;
         padding: 10px 0px;
         width: 100%;
-        
+
     }
-    .play-like-image{
+
+    .play-like-image {
         padding: 0px !important;
-        
+
     }
 
     .play-like-text {
@@ -47,25 +50,85 @@
 
 
     /* we are gamer */
-    .we-are-gamer-container{
-        padding:0;
-        
+    .we-are-gamer-container {
+        padding: 0;
+
     }
-    .we-are-gamer-image img{
+
+    .we-are-gamer-image img {
         width: 100%;
         margin-bottom: 50px;
     }
 
-    .we-are-gamer-text{
+    .we-are-gamer-text {
         text-align: center;
         padding: 20px;
     }
+
+    /* online section starts here */
+    .all-games {
+        flex-wrap: wrap;
+    }
+
+    /* play instantly  section */
+    .play-instant-section-container {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .play-instant-section-container>img {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        flex-shrink: 0;
+        left: -85px;
+        top: -200px;
+    }
+
+    .play-instant-image>img {
+        position: relative;
+        left: 91px;
+        width: 80%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    /* play anywhere any time */
+    .anywhere-anytime-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+  
+    .anywhere-anytime-image > img {
+        width: 50%;
+        position: relative;
+        top: -230px;
+        left: 230px;
+        height: 60%;
+    }
+
+    .antwhere-anytime-title, .anywhere-anytime-description{
+        text-align: center;
+    }
+    .anywhere-anytime-container>img{
+        height: 50%;
+        width: 50%;
+        position: relative;
+        left: -70px;
+    }
+
+
 }
 
 
 /* styles for medium devices */
 @media screen and (min-width: 576px) and (max-width: 990px) {
-    .nav-container, .we-are-gamer-container {
+
+    .nav-container,
+    .we-are-gamer-container {
         flex-direction: column;
     }
 
@@ -77,6 +140,7 @@
         padding-bottom: 50px;
         margin-bottom: 10px;
         height: fit-content;
+        width: 100%;
     }
 
     .nav-items {
@@ -91,27 +155,40 @@
         align-items: center;
         margin: 20px 100px;
         width: 100%;
-        
+
     }
 
     /* we are gamer */
-    .we-are-gamer-container{
+    .we-are-gamer-container {
         padding: 0;
         width: 100%;
         text-align: center;
         justify-items: center;
 
     }
-    .we-are-gamer-image{
+
+    .we-are-gamer-image {
         width: 100%;
     }
-    .we-are-gamer-image img{
+
+    .we-are-gamer-image img {
         width: 100%;
         margin-bottom: 50px;
     }
-    .we-are-gamer-text{
+
+    .we-are-gamer-text {
         text-align: center;
         padding: 20px;
+    }
+
+    /* online games section starts here */
+    .all-games {
+        flex-wrap: wrap;
+
+    }
+
+    .online-games-container {
+        width: 100%;
     }
 
 }
