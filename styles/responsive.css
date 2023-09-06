@@ -97,17 +97,21 @@
     /* play anywhere any time */
     .anywhere-anytime-container {
         flex-direction: column-reverse;
-        width: 90vh;
+        width: 100%;
         margin-bottom: 0px;
         padding: 0px;
+        gap: 20px;
+    }
+    .anywhere-anytime-image{
+        height: 100%;
+        width: 100%;
     }
 
-
     .anywhere-anytime-image>img {
-        width: 50%;
+        width: 80%;
         position: relative;
-        top: -230px;
-        left: 230px;
+        top: -273px;
+        left: 44px;
         height: 60%;
     }
 
@@ -118,9 +122,10 @@
 
     .anywhere-anytime-container>img {
         height: 50%;
-        width: 50%;
+        width: 40%;
         position: relative;
-        left: -70px;
+        left: 150px;
+        top: 260px;
     }
 
 
