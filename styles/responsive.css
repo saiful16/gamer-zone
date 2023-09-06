@@ -251,4 +251,15 @@
         top: 93px;
     }
 
+.antwhere-anytime-title, .anywhere-anytime-description{
+    text-align: center;
+}
+
+    .anywhere-anytime-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-bottom: 0;
+        padding: 0px;
+    }
+
 }
