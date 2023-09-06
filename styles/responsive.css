@@ -139,6 +139,23 @@
         align-content: center;
         flex-direction: column;
     }
+    /* footer section */
+
+    .footer-links-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+    .social-media-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items:center ;
+    }
+    .terms-and-condition{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items:center ;
+    }
 
 
 }
