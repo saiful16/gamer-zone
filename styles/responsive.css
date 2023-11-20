@@ -175,11 +175,9 @@
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        padding-top: 100px;
-        padding-bottom: 50px;
-        margin-bottom: 10px;
+        padding: 0px;
         height: fit-content;
-        width: 100%;
+        width: 100vw;
     }
 
     .nav-items {
@@ -261,5 +259,21 @@
         margin-bottom: 0;
         padding: 0px;
     }
+    .anywhere-anytime-image > img{
+        position: relative;
+        left: -15px;
+        top: -1px;
+    }
+    .anywhere-anytime-container > img{
+        position: relative;
+        left: -15px;
+        top: -1px;
+    }
+
+    .advertise-section-container{
+        width: 100%;
+        padding: 0;
+    }
+
 
 }
